@@ -8,12 +8,10 @@ import Router from './Router'
 
 function App() {
   return (
-    <div>
     <BrowserRouter/>
     <Navigation />
     <Router />
     <BrowserRouter/>
-    </div>
   );
 }
 
