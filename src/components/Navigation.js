@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react'
 import { AppBar, Toolbar, IconButton, Typography } from '@material-ui/core'
 import MenuIcon from '@material-ui/icons/Menu'
 // Import { Link } here //
-import {link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
  
 const Navigation = () => {
     return (
@@ -16,10 +16,10 @@ const Navigation = () => {
                 </Typography>
                 <ul className="nav-list">
                     <li className="nav-list-item">
-                        {/* <Link to='/'>HOME</Link> */}
+                        <Link to='/'>HOME</Link>
                     </li>
                     <li className="nav-list-item">
-                        {/* <Link to='/about'>ABOUT</Link> */}
+                        <Link to='/about'>ABOUT</Link>
                     </li>
                 </ul>
             </Toolbar>
