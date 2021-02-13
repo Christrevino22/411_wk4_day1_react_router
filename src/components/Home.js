@@ -8,6 +8,7 @@ const Home = () => {
     return (
         <div className="card-container">
             {cars.map((car, idx) => (
+                //DOES THIS ********FOR EVERY CAR IN CAR GIVE IT AN INDEX KEY AND RETURN ALL INFO FROM THE CARD COMPONENT, THEN PASS DOWN TO CAR.JS AND DISPLAY THE APROPRIATE THING OR PROPS OR WHATVER
                 <Card key={idx} className="card">
                     <CardContent className="text-gray">
                         <span>{car.Name.toUpperCase()}</span>
